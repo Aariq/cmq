@@ -1,9 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=cmq-toplevel   # Job name
 #SBATCH --mail-type=ALL               # Mail events (NONE, BEGIN, END, FAIL, AL$
-#SBATCH --mail-user=diaz.renata@ufl.edu   # Where to send mail
-#SBATCH --account=ewhite
-#SBATCH --qos=ewhite-b
+#SBATCH --mail-user=ericscott@ufl.edu   # Where to send mail
 #SBATCH --ntasks=1                 # Number of MPI ranks
 #SBATCH --cpus-per-task=1            # Number of cores per MPI rank
 #SBATCH --mem-per-cpu=8GB
