@@ -8,7 +8,7 @@
 #SBATCH --array=1-{{ n_jobs }}              # job array
 #SBATCH --time={{ time | 1440 }}
 
-#source /etc/profile
+source /etc/profile
 
 ulimit -v $(( 1024 * {{ memory | 8192 }} ))
 module load R              # Uncomment if R is an environment module.
