@@ -11,4 +11,4 @@
 
 #This is a generic R submission script
 module load R
-Rscript analysis/pipeline.R
+Rscript pipeline.R
